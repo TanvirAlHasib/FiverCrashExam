@@ -15,7 +15,7 @@ function Home({ data }) {
                                 <img src={meal.strMealThumb} className="max-w-sm rounded-lg shadow-2xl" />
                                 <div>
                                     <h1 className="text-4xl font-bold">{meal.strMeal}</h1>
-                                    <p className="py-6">{meal.strInstructions.slice(0,300)}....</p>
+                                    <p className="py-6">{meal.strInstructions.slice(0,100)}....</p>
                                     <Link className="btn btn-primary" to={`/details/${meal.idMeal}`} >Details</Link>
                                 </div>
                             </div>
